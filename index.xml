@@ -81,7 +81,7 @@
 /*
 -----------------------------------------------
 Master Dy - Custom Blogger Template
-Designed and developed by Dymoob
+Dymoob Templates
 -----------------------------------------------
 */
 
@@ -354,7 +354,7 @@ ul#nav1 { list-style: none; margin: 0; padding: 0; text-align: center; }
 #header-wrapper {
   text-align: center;
   padding: 0;
-  background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwQyPKlsj4vp_quihiSZ4y1dKdt6UOWVuEsvC7btxo71sizZad9XrbHc3OTiAAhOiBjx6aYXedkahWTLEeWIJWUiNIBO-3uvuc_xVH5pn-8cSoY4hEGEIKFC2fY4MVEGab3HQEq1YSA5JGpy1YCnUBsIP3iSE0UQsQm8h7OyXcyuSHgeOBavCPsUiudZ9e/s16000/Foto%20oficial%20Master%20Dy%202026_cover1.jpg) no-repeat center bottom;
+  background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTLcOpieAWBm7qqrUthGju2BYUBNbFvX_7tEeblepgc9Q0cMgH7vujYLVjiM8rLjaQXNcOLpZ59Dfhx-CasnJ8b_UlxX0fx4KLrFei4CyVnOKJ3seXlOhYpTEwCVyZ_8AzOpWuDhKhepZhoVRr7r5c22VI5Ti4Nt1MPQNU1YrwQZ7qrRkvzoH3Gaq6nD3S/s16000/Foto%20oficial%20Master%20Dy%202026_cover1a.jpg) no-repeat center bottom;
   background-attachment: fixed;
   background-size: cover;
   margin-bottom: 10px;
@@ -978,7 +978,7 @@ h4#comment-post-message { display: none; margin: 0; }
     .button:hover{background-color:#27ae60;color:#fff}
     .alert-message{position:relative;display:block;background-color:#FAFAFA;padding:20px;margin:20px 0;border-radius:2px;color:#2f3239;border:1px solid}
     .alert-message p{margin:0!important;padding:0;line-height:22px;font-size:13px;color:#2f3239}
-    pre{font-family:Monaco,"Andale Mono","Courier New",Courier,monospace;background-color:#2c3e50;line-height:25px;color:#f1f1f1;position:relative;padding:0 7px;margin:15px 0 10px;overflow:hidden;word-wrap:normal;white-space:pre}
+    pre{font-family:Monaco,&quot;Andale Mono&quot;,&quot;Courier New&quot;,Courier,monospace;background-color:#2c3e50;line-height:25px;color:#f1f1f1;position:relative;padding:0 7px;margin:15px 0 10px;overflow:hidden;word-wrap:normal;white-space:pre}
     article{padding:0 0 10px;clear:both}
     .post-header{padding:0}
     @media only screen and (max-width:768px){article{padding:10px}}
@@ -1085,12 +1085,29 @@ h4#comment-post-message { display: none; margin: 0; }
         <b:section class='menu' id='menu' maxwidgets='1' name='Main Menu' showaddelement='yes'>
           <b:widget id='LinkList210' locked='true' title='Menu' type='LinkList' version='1'>
             <b:widget-settings>
+              <b:widget-setting name='text-9'/>
+              <b:widget-setting name='link-9'/>
+              <b:widget-setting name='text-8'/>
+              <b:widget-setting name='link-7'/>
+              <b:widget-setting name='link-8'/>
+              <b:widget-setting name='text-10'/>
+              <b:widget-setting name='link-5'/>
+              <b:widget-setting name='link-6'/>
               <b:widget-setting name='link-3'>#</b:widget-setting>
               <b:widget-setting name='link-4'>#</b:widget-setting>
+              <b:widget-setting name='text-1'/>
+              <b:widget-setting name='text-0'/>
+              <b:widget-setting name='text-3'/>
+              <b:widget-setting name='text-2'/>
+              <b:widget-setting name='text-5'/>
+              <b:widget-setting name='text-4'/>
+              <b:widget-setting name='text-7'/>
+              <b:widget-setting name='text-6'/>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
               <b:widget-setting name='link-1'>#</b:widget-setting>
               <b:widget-setting name='link-2'>#</b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
+              <b:widget-setting name='link-10'/>
             </b:widget-settings>
             <b:includable id='main'>
               <div class='widget-content'>
@@ -1121,7 +1138,7 @@ h4#comment-post-message { display: none; margin: 0; }
     <div class='fenix-sub-head row'>
       <div class='header-text'>
         <b:section class='logo-text' id='Header Title' maxwidgets='1' name='Header Title Widget' showaddelement='no'>
-          <b:widget id='HTML30' locked='false' title='' type='HTML'>
+          <b:widget id='HTML30' locked='false' title='' type='HTML' version='1'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<p>Connecting People Piece by Piece since 2019</p>]]></b:widget-setting>
             </b:widget-settings>
@@ -1136,7 +1153,7 @@ h4#comment-post-message { display: none; margin: 0; }
       <div style='clear: both;'/>
       <div class='header-logo-desc'>
         <b:section class='logo-desc' id='Logo Description' maxwidgets='1' name='Logo Description Widget' showaddelement='no'>
-          <b:widget id='HTML3' locked='false' title='' type='HTML'>
+          <b:widget id='HTML3' locked='false' title='' type='HTML' version='1'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<div class='type'>
 <span>Master Dy is...</span><p></p>
@@ -1289,13 +1306,17 @@ $(function() {
           <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
           <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
           <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='reactionsLabel'/>
           <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
           <b:widget-setting name='style.layout'>1x1</b:widget-setting>
           <b:widget-setting name='showLabels'>false</b:widget-setting>
           <b:widget-setting name='showLocation'>false</b:widget-setting>
           <b:widget-setting name='postLabelsLabel'>Tags</b:widget-setting>
           <b:widget-setting name='showTimestamp'>false</b:widget-setting>
+          <b:widget-setting name='postsPerAd'>1</b:widget-setting>
           <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+          <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='showInlineAds'>false</b:widget-setting>
           <b:widget-setting name='showReactions'>false</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main' var='top'>
@@ -1318,13 +1339,11 @@ $(function() {
           </b:if>
           <b:if cond='data:top.showPlusOne'><data:top.googlePlusBootstrap/></b:if>
         </b:includable>
-
         <b:includable id='backlinkDeleteIcon' var='backlink'>
           <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
             <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'><img src='https://resources.blogblog.com/img/icon_delete13.gif'/></a>
           </span>
         </b:includable>
-
         <b:includable id='backlinks' var='post'>
           <a name='links'/><h4><data:post.backlinksLabel/></h4>
           <b:if cond='data:post.numBacklinks != 0'>
@@ -1340,7 +1359,6 @@ $(function() {
           </b:if>
           <p class='comment-footer'><a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a></p>
         </b:includable>
-
         <b:includable id='comment-form' var='post'>
           <div class='comment-form'>
             <a name='comment-form'/>
@@ -1359,7 +1377,6 @@ $(function() {
             <script type='text/javascript'>BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);</script>
           </div>
         </b:includable>
-
         <b:includable id='commentDeleteIcon' var='comment'>
           <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
             <b:if cond='data:showCmtPopup'>
@@ -1369,7 +1386,6 @@ $(function() {
             </b:if>
           </span>
         </b:includable>
-
         <b:includable id='comment_count_picker' var='post'>
           <b:if cond='data:post.commentSource == 1'>
             <span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-post-url='data:post.url' expr:data-url='data:post.url.canonical.http'/>
@@ -1377,7 +1393,6 @@ $(function() {
             <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:post.commentLabelFull/>:</a>
           </b:if>
         </b:includable>
-
         <b:includable id='comment_picker' var='post'>
           <b:if cond='data:post.commentSource == 1'>
             <b:include data='post' name='iframe_comments'/>
@@ -1387,7 +1402,6 @@ $(function() {
             <b:include data='post' name='comments'/>
           </b:if>
         </b:includable>
-
         <b:includable id='comments' var='post'>
           <div class='comments' id='comments'>
             <a name='comments'/>
@@ -1431,7 +1445,6 @@ $(function() {
             <div id='backlinks-container'><div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'><b:include cond='data:post.showBacklinks' data='post' name='backlinks'/></div></div>
           </div>
         </b:includable>
-
         <b:includable id='feedLinks'>
           <b:if cond='data:blog.pageType != &quot;item&quot;'>
             <b:if cond='data:feedLinks'><div class='blog-feeds'/></b:if>
@@ -1443,11 +1456,9 @@ $(function() {
             </div>
           </b:if>
         </b:includable>
-
         <b:includable id='feedLinksBody' var='links'>
           <div class='feed-links'><data:feedLinksMsg/><b:loop values='data:links' var='f'><a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a></b:loop></div>
         </b:includable>
-
         <b:includable id='iframe_comments' var='post'>
           <b:if cond='data:post.allowIframeComments'>
             <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
@@ -1455,7 +1466,6 @@ $(function() {
             <b:if cond='data:post.embedCommentForm == &quot;false&quot;'><a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a></b:if>
           </b:if>
         </b:includable>
-
         <b:includable id='mobile-index-post' var='post'>
           <div class='mobile-date-outer date-outer'>
             <b:if cond='data:post.dateHeader'><div class='date-header'><span><data:post.dateHeader/></span></div></b:if>
@@ -1475,7 +1485,6 @@ $(function() {
             </div>
           </div>
         </b:includable>
-
         <b:includable id='mobile-main' var='top'>
           <div class='blog-posts hfeed'>
             <b:include data='top' name='status-message'/>
@@ -1487,7 +1496,6 @@ $(function() {
           </div>
           <b:include name='mobile-nextprev'/>
         </b:includable>
-
         <b:includable id='mobile-nextprev'>
           <div class='blog-pager' id='blog-pager'>
             <b:if cond='data:newerPageUrl'><div class='mobile-link-button' id='blog-pager-newer-link'><a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a></div></b:if>
@@ -1497,7 +1505,6 @@ $(function() {
           </div>
           <div class='clear'/>
         </b:includable>
-
         <b:includable id='mobile-post' var='post'>
           <div class='date-outer'>
             <b:if cond='data:post.dateHeader'><h2 class='date-header'><span><data:post.dateHeader/></span></h2></b:if>
@@ -1539,7 +1546,6 @@ $(function() {
             </div>
           </div>
         </b:includable>
-
         <b:includable id='nextprev'>
           <div class='blog-pager' id='blog-pager'>
             <b:if cond='data:newerPageUrl'><span id='blog-pager-newer-link'><a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a></span></b:if>
@@ -1549,7 +1555,6 @@ $(function() {
           </div>
           <div class='clear'/>
         </b:includable>
-
         <b:includable id='post' var='post'>
           <div class='post hentry'>
             <b:if cond='data:blog.pageType == &quot;index&quot;'>
@@ -1688,7 +1693,6 @@ $(function() {
             <b:if cond='data:blog.pageType == &quot;item&quot;'>&lt;/div&gt;</b:if>
           </div>
         </b:includable>
-
         <b:includable id='postQuickEdit' var='post'>
           <b:if cond='data:post.editUrl'>
             <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
@@ -1696,7 +1700,6 @@ $(function() {
             </span>
           </b:if>
         </b:includable>
-
         <b:includable id='shareButtons' var='post'>
           <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if>
           <b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if>
@@ -1704,7 +1707,6 @@ $(function() {
           <b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if>
           <b:if cond='data:top.showPlusOne'><div class='goog-inline-block google-plus-share-container'><data:post.googlePlusShareTag/></div></b:if>
         </b:includable>
-
         <b:includable id='status-message'>
           <b:if cond='data:navMessage'>
             <div class='status-msg-wrap'>
@@ -1735,7 +1737,6 @@ $(function() {
             </b:if>
           </b:if>
         </b:includable>
-
         <b:includable id='threaded-comment-form' var='post'>
           <div class='comment-form'>
             <a name='comment-form'/>
@@ -1752,23 +1753,6 @@ $(function() {
             <script type='text/javascript'>BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);</script>
           </div>
         </b:includable>
-
-        <b:includable id='threaded_comments' var='post'>
-          <div class='comments' id='comments'>
-            <a name='comments'/>
-            <h4><data:post.commentLabelFull/>:</h4>
-            <div class='comments-content'>
-              <b:include cond='data:post.embedCommentForm' data='post' name='threaded_comment_js'/>
-              <div id='comment-holder'><data:post.commentHtml/></div>
-            </div>
-            <p class='comment-footer'>
-              <b:if cond='data:post.allowNewComments'><b:include data='post' name='threaded-comment-form'/><b:else/><data:post.noNewCommentsText/></b:if>
-            </p>
-            <b:if cond='data:showCmtPopup'><div id='comment-popup'><iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'/></div></b:if>
-            <div id='backlinks-container'><div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'><b:include cond='data:post.showBacklinks' data='post' name='backlinks'/></div></div>
-          </div>
-        </b:includable>
-
         <b:includable id='threaded_comment_js' var='post'>
           <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
           <script type='text/javascript'>
@@ -1832,18 +1816,30 @@ $(function() {
             })();
           </script>
         </b:includable>
-
+        <b:includable id='threaded_comments' var='post'>
+          <div class='comments' id='comments'>
+            <a name='comments'/>
+            <h4><data:post.commentLabelFull/>:</h4>
+            <div class='comments-content'>
+              <b:include cond='data:post.embedCommentForm' data='post' name='threaded_comment_js'/>
+              <div id='comment-holder'><data:post.commentHtml/></div>
+            </div>
+            <p class='comment-footer'>
+              <b:if cond='data:post.allowNewComments'><b:include data='post' name='threaded-comment-form'/><b:else/><data:post.noNewCommentsText/></b:if>
+            </p>
+            <b:if cond='data:showCmtPopup'><div id='comment-popup'><iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'/></div></b:if>
+            <div id='backlinks-container'><div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'><b:include cond='data:post.showBacklinks' data='post' name='backlinks'/></div></div>
+          </div>
+        </b:includable>
       </b:widget>
-
-      <b:widget id='HTML2' locked='false' title='' type='HTML'>
+      <b:widget id='HTML2' locked='false' title='' type='HTML' version='1'>
         <b:includable id='main'>
           <b:if cond='data:title != &quot;&quot;'><h2 class='title'><data:title/></h2></b:if>
           <div class='widget-content'><data:content/></div>
           <b:include name='quickedit'/>
         </b:includable>
       </b:widget>
-
-      <b:widget id='HTML1' locked='false' title='Last Videos' type='HTML'>
+      <b:widget id='HTML1' locked='false' title='Last Videos' type='HTML' version='1'>
         <b:widget-settings>
           <b:widget-setting name='content'><![CDATA[<div class="md-video-wrap">
 <style>
@@ -1854,7 +1850,7 @@ $(function() {
 </style>
 <div class="md-video-row">
 <div class="md-video"><iframe src="https://www.youtube.com/embed/-pJMw-jFYKs" title="Master Dy - Midnight Witch" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-<div class="md-video"><iframe src="https://www.youtube.com/embed/objP9KV5lvY" title="Master Dy Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="md-video"><iframe src="https://www.youtube.com/embed/hPGGFr_tDEc?si=lGHoQtdTj7x4BKTH&autoplay=1&mute=1" title="Master Dy - Call Me Master" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 </div>
 </div>]]></b:widget-setting>
         </b:widget-settings>
@@ -1864,7 +1860,6 @@ $(function() {
           <b:include name='quickedit'/>
         </b:includable>
       </b:widget>
-
     </b:section>
   </div>
 
@@ -1906,11 +1901,12 @@ $(function() {
           </div>
         </b:includable>
       </b:widget>
-
       <b:widget id='Label1' locked='false' title='Tags' type='Label' version='1'>
         <b:widget-settings>
           <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
           <b:widget-setting name='display'>CLOUD</b:widget-setting>
+          <b:widget-setting name='selectedLabelsList'/>
+          <b:widget-setting name='showType'>ALL</b:widget-setting>
           <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
@@ -1962,8 +1958,8 @@ $(function() {
   <div class='gallery-cell'>
     <div class='testimonial'>
       <img class='testimonial-avatar' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSkdwzH02MlWa_Eravc6weWPI-dYMppzXEDG94Cwtrg563jaeFjNVlsnmfXPEGHtgfVyTO3fhlGJu45Z8axZqT2sfNxocEFVqNyfcSYuuPwdiQgHA-kxVnN5HH06-p0we8iFsY0khmsvV-rnwoHj8ryGBMH1_aAKSE-RM-OICmpTrvbptW2jM0q87OjMk/s320-rw/Captura%20de%20ecra%CC%83%202024-07-01,%20a%CC%80s%2019.42.26.png=w352-h352-p-k-no-nu'/>
-      <q class='testimonial-quote'>Master Dy apresenta uma sonoridade forte, coesa e impactante com um vocal feminino marcante e imponente com uma sonoridade calcada em um heavy metal mel&#243;dico, mas n&#227;o s&#243;, temos aqui flertes com v&#225;rios estilos e vertentes feito de forma primorosa e criando uma identidade pr&#243;pria avassaladora.</q>
-      <span class='testimonial-author'>Andr&#233; Alonso - Metal Junkbox</span>
+      <q class='testimonial-quote'>Master Dy apresenta uma sonoridade forte, coesa e impactante com um vocal feminino marcante e imponente com uma sonoridade calcada em um heavy metal melódico, mas não só, temos aqui flertes com vários estilos e vertentes feito de forma primorosa e criando uma identidade própria avassaladora.</q>
+      <span class='testimonial-author'>André Alonso - Metal Junkbox</span>
     </div>
   </div>
 </div>
@@ -1984,7 +1980,7 @@ $(function() {
         .md-member-container{max-width:1200px;margin:60px auto;display:flex;align-items:center;gap:50px;padding:0 20px}
         .md-member-photo{flex:0 0 40%}
         .md-member-photo img{width:100%;border-radius:12px;display:block;filter:contrast(105%) brightness(95%)}
-        .md-member-text{flex:0 0 60%;color:#757575;font-family:'Playfair Display',Georgia,serif}
+        .md-member-text{flex:0 0 60%;color:#757575;font-family:&#39;Playfair Display&#39;,Georgia,serif}
         .md-member-text h2{font-size:32px;margin-bottom:10px;letter-spacing:2px}
         .md-member-role{color:#b300ff;font-size:14px;text-transform:uppercase;letter-spacing:3px;margin-bottom:20px}
         .md-member-text p{line-height:1.7;font-size:16px;margin-bottom:15px}
@@ -2025,11 +2021,11 @@ $(function() {
     <div class='about-tiles wow fadeInUp' data-wow-delay='0s' style='visibility: visible;'>
       <div class='team-member text-center'>
         <div class='team-img'>
-          <img alt='Mr Perseus - Master Dy bassist' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLcSMiFTsu5gFcum2f_wbQVmnyWt4uNcxdk3mLGux7a58klJz8AkUMirvhvOYGyD2PukQ86UPwBhzm85CSexi6kWs-c_FneaWGQBeWpgCYWszavxIWMuKn3J87C8TEFOWa1PIYK8RTPBsbaUcpl0oIegAlcux2io0-zGCcI1PqmW8p8qtag_mENUCNpS-W/w430-h640/Mr%20Perseus%20from%20Master%20Dy.jpg'/>
+          <img alt='Mr Perseus - Master Dy bassist' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjivr0vE9EzK3-eBxdlnx0uDdtmG-9a32q2C2ZAEufP3JsVS_BFhYJmwJuaiSst1Gl-spJa0oMMR4iTpBvqSJ6fySZAsry47Lz0rhT5KecWWBKnnkLKTToUvOgkTcU9I6LqYwk8MdlgBSMBCQG3lO7gA1RMcz54u967ju_qz1enYWkbTR0F4yxe9Mn4-ecx/w430-h640/Mr%20Perseus%20from%20Master%20Dy%20a.jpg'/>
           <div class='overlay'>
             <div class='team-details text-center'>
               <p>The one chosen that gives solidity to the bass and fills the gaps in our sound.</p>
-              <div class='socials mt-20'><a href='https://www.instagram.com/danielplothow/'><i class='fa-brands fa-instagram'/></a></div>
+              <div class='socials mt-20'><a href='https://www.instagram.com/giuse9319/'><i class='fa-brands fa-instagram'/></a></div>
             </div>
           </div>
         </div>
@@ -2059,56 +2055,7 @@ $(function() {
     <!-- BandsInTown Widget -->
     <div class='md-bit-wrap' style='max-width:1200px; margin:30px auto; padding:0 20px; position:relative; z-index:1;'>
       <script charset='utf-8' src='https://widgetv3.bandsintown.com/main.min.js'/>
-      <a class='bit-widget-initializer'
-        data-artist-name='id_15483936'
-        data-app-id=''
-        data-auto-style='true'
-        data-background-color='rgba(74,74,74,1)'
-        data-bit-logo-color='#CCCCCC'
-        data-button-label-capitalization='capitalize'
-        data-date-border-color='#4A4A4A'
-        data-date-border-radius='10px'
-        data-date-border-width='1px'
-        data-date-format='MMM. D, YYYY'
-        data-date-orientation='horizontal'
-        data-display-local-dates='true'
-        data-display-past-dates='true'
-        data-event-ticket-cta-bg-color='#4A4A4A'
-        data-event-ticket-cta-border-color='#4A4A4A'
-        data-event-ticket-cta-border-radius='4px'
-        data-event-ticket-cta-border-width='0px'
-        data-event-ticket-cta-size='medium'
-        data-event-ticket-cta-text-color='#FFFFFF'
-        data-event-ticket-text='TICKETS'
-        data-follow-section-cta-bg-color='#4A4A4A'
-        data-follow-section-cta-border-color='#4A4A4A'
-        data-follow-section-cta-border-radius='4px'
-        data-follow-section-cta-border-width='0px'
-        data-follow-section-cta-icon='true'
-        data-follow-section-cta-size='medium'
-        data-follow-section-cta-text='FOLLOW'
-        data-follow-section-cta-text-color='#FFFFFF'
-        data-follow-section-header-text='Get updates on new shows, new music, and more.'
-        data-follow-section-position='top'
-        data-font='Helvetica'
-        data-language='en'
-        data-layout-breakpoint='900'
-        data-local-dates-position='tab'
-        data-location-capitalization='capitalize'
-        data-play-my-city-cta-bg-color='#4A4A4A'
-        data-play-my-city-cta-border-color='#4A4A4A'
-        data-play-my-city-cta-border-radius='4px'
-        data-play-my-city-cta-border-width='0px'
-        data-play-my-city-cta-icon='true'
-        data-play-my-city-cta-size='medium'
-        data-play-my-city-cta-text='REQUEST A SHOW'
-        data-play-my-city-cta-text-color='#FFFFFF'
-        data-play-my-city-header-text='Don&#39;t see a show near you?'
-        data-play-my-city-position='bottom'
-        data-separator-color='#DDDDDD'
-        data-social-share-icon='true'
-        data-text-color='rgba(228,174,238,1)'
-        data-venue-capitalization='capitalize'/>
+      <a class='bit-widget-initializer' data-app-id='' data-artist-name='id_15483936' data-auto-style='true' data-background-color='rgba(74,74,74,1)' data-bit-logo-color='#CCCCCC' data-button-label-capitalization='capitalize' data-date-border-color='#4A4A4A' data-date-border-radius='10px' data-date-border-width='1px' data-date-format='MMM. D, YYYY' data-date-orientation='horizontal' data-display-local-dates='true' data-display-past-dates='true' data-event-ticket-cta-bg-color='#4A4A4A' data-event-ticket-cta-border-color='#4A4A4A' data-event-ticket-cta-border-radius='4px' data-event-ticket-cta-border-width='0px' data-event-ticket-cta-size='medium' data-event-ticket-cta-text-color='#FFFFFF' data-event-ticket-text='TICKETS' data-follow-section-cta-bg-color='#4A4A4A' data-follow-section-cta-border-color='#4A4A4A' data-follow-section-cta-border-radius='4px' data-follow-section-cta-border-width='0px' data-follow-section-cta-icon='true' data-follow-section-cta-size='medium' data-follow-section-cta-text='FOLLOW' data-follow-section-cta-text-color='#FFFFFF' data-follow-section-header-text='Get updates on new shows, new music, and more.' data-follow-section-position='top' data-font='Helvetica' data-language='en' data-layout-breakpoint='900' data-local-dates-position='tab' data-location-capitalization='capitalize' data-play-my-city-cta-bg-color='#4A4A4A' data-play-my-city-cta-border-color='#4A4A4A' data-play-my-city-cta-border-radius='4px' data-play-my-city-cta-border-width='0px' data-play-my-city-cta-icon='true' data-play-my-city-cta-size='medium' data-play-my-city-cta-text='REQUEST A SHOW' data-play-my-city-cta-text-color='#FFFFFF' data-play-my-city-header-text='Don&apos;t see a show near you?' data-play-my-city-position='bottom' data-separator-color='#DDDDDD' data-social-share-icon='true' data-text-color='rgba(228,174,238,1)' data-venue-capitalization='capitalize'/>
     </div>
 
     <div style='clear:both; height:1px;'/>
@@ -2194,9 +2141,9 @@ $(function() {
       </b:widget>
     </b:section>
 
-    <!-- Copyright Dymoob  -->
+    <!-- Copyright Master Dy - sem referência ao SoraTemplates -->
     <div class='jugas_footer_copyright'>
-      &#169; <data:blog.title/> 2025 &#8212; All Rights Reserved
+      &#169; <data:blog.title/> 2025 &#8212; All Rights Reserved to Dymoob
     </div>
 
     <b:section class='bottom-bar-social blue' id='Footer social widget' maxwidgets='1' name='Footer Social Widget' showaddelement='no'>

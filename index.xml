@@ -415,7 +415,15 @@ ul#nav1 { list-style: none; margin: 0; padding: 0; text-align: center; }
 #header-inner { text-align: center; display: inline-block; }
 #header h1 { color: #fff; margin: 0; font-size: 40px; line-height: 1.4em; text-transform: uppercase; letter-spacing: 1px; font-family: 'Righteous', cursive; }
 #header .description { display: none; }
-.header-text p { color: #fff; margin: 0; font-size: 50px; line-height: 1.4em; text-transform: uppercase; letter-spacing: 1px; font-family: 'Righteous', cursive; }
+.header-text p {
+  color: #fff;
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Righteous', cursive;
+}
 .header-logo-desc span { font-size: 31px; color: var(--accent); }
 .header-logo-desc p {
   display: inline-block;

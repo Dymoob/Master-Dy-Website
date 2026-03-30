@@ -24,21 +24,50 @@
 
     <title>
       <b:if cond='data:blog.pageType == &quot;index&quot;'>
-        <data:blog.pageTitle/>
+        Master Dy | Industrial Metal Band | Dark Modern Metal
       <b:else/>
         <b:if cond='data:blog.pageType != &quot;error_page&quot;'>
-          <data:blog.pageName/> - <data:blog.title/>
+          <data:blog.pageName/> | Master Dy
         <b:else/>
-          ERROR 404 - <data:blog.title/>
+          ERROR 404 | Master Dy
         </b:if>
       </b:if>
     </title>
 
     <!-- SEO: Description e Keywords -->
     <b:if cond='data:blog.pageType == &quot;index&quot;'>
-      <meta content='Master Dy - Alternative metal band from Portugal. Female fronted, modern metal with theatrical aesthetics and emotional storytelling. Connecting people piece by piece since 2019.' name='description'/>
+      <meta content='Master Dy is a dark modern industrial metal band with female vocals, theatrical visuals and cinematic energy. For listeners who enjoy Rammstein, Lord of the Lost and modern gothic industrial metal.' name='description'/>
+    <b:elseif cond='data:blog.pageType == &quot;item&quot;'/>
+      <meta expr:content='data:blog.pageName + &quot; | Master Dy - industrial metal, female vocals, dark modern metal&quot;' name='description'/>
     </b:if>
-    <meta content='Master Dy, alternative metal, modern metal, female fronted metal, gothic metal, symphonic metal, Dy Moob, metal band Portugal, metal band Brazil, Midnight Witch, Milf Queen EP, FRUCTUS, metal music' name='keywords'/>
+    <meta content='Master Dy, industrial metal band, dark modern metal, female fronted industrial metal, gothic industrial metal, modern metal band, Rammstein inspired band, Lord of the Lost fans, alternative metal band, dark metal band, theatrical metal, cinematic metal, Midnight Witch, Milf Queen, FRUCTUS' name='keywords'/>
+
+    <meta content='index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1' name='robots'/>
+    <link expr:href='data:blog.canonicalUrl' rel='canonical'/>
+
+    <b:if cond='data:blog.pageType == &quot;index&quot;'>
+      <meta content='Master Dy | Industrial Metal Band | Dark Modern Metal' property='og:title'/>
+      <meta content='website' property='og:type'/>
+      <meta expr:content='data:blog.homepageUrl' property='og:url'/>
+      <meta content='Master Dy is a dark modern industrial metal band with female vocals, theatrical visuals and cinematic energy. For listeners who enjoy Rammstein, Lord of the Lost and modern gothic industrial metal.' property='og:description'/>
+    </b:if>
+
+    <script type='application/ld+json'>
+    {
+      &quot;@context&quot;: &quot;https://schema.org&quot;,
+      &quot;@type&quot;: &quot;MusicGroup&quot;,
+      &quot;name&quot;: &quot;Master Dy&quot;,
+      &quot;url&quot;: &quot;https://masterdy.band/&quot;,
+      &quot;genre&quot;: [&quot;Industrial Metal&quot;, &quot;Dark Modern Metal&quot;, &quot;Gothic Industrial Metal&quot;],
+      &quot;description&quot;: &quot;Master Dy is a dark modern industrial metal band with female vocals, theatrical visuals and cinematic energy.&quot;,
+      &quot;sameAs&quot;: [
+        &quot;https://open.spotify.com/intl-pt/artist/3lfScZWl1nVVmsYciBXKBu&quot;,
+        &quot;https://www.youtube.com/@MasterDyBand&quot;,
+        &quot;https://www.instagram.com/masterdyofficial&quot;,
+        &quot;https://www.tiktok.com/@master.dy&quot;
+      ]
+    }
+    </script>
 
     <!-- Open Graph -->
     <b:if cond='data:blog.pageType == &quot;item&quot;'>
@@ -1017,11 +1046,13 @@ h4#comment-post-message { display: none; margin: 0; }
 </head>
 <body expr:class='data:blog.pageType'>
 
+<div style='display:none'>Master Dy is a dark modern industrial metal band with female vocals, theatrical visuals and cinematic energy. For listeners who enjoy industrial metal, gothic industrial music, Rammstein and Lord of the Lost.</div>
+
 <!--preloader start-->
 <div id='preloader'><div id='loader'/></div>
 <!--preloader end-->
 
-&lt;div id=&quot;outer-wrapper&quot; class=&quot;<data:blog.pageType/><b:if cond='data:blog.url == data:blog.homepageUrl'> home</b:if><b:if cond='data:blog.pageType == &quot;static_page&quot;'> item</b:if><b:if cond='data:blog.pageType == &quot;archive&quot;'> index</b:if>&quot;&gt;
+<div expr:class='data:blog.pageType + (data:blog.url == data:blog.homepageUrl ? &quot; home&quot; : &quot;&quot;) + (data:blog.pageType == &quot;static_page&quot; ? &quot; item&quot; : &quot;&quot;) + (data:blog.pageType == &quot;archive&quot; ? &quot; index&quot; : &quot;&quot;)' id='outer-wrapper'>
 
 <div class='scroll-header' id='head-trigger'>
   <div class='scroll-head-wrap row'>
@@ -1140,7 +1171,7 @@ h4#comment-post-message { display: none; margin: 0; }
         <b:section class='logo-text' id='Header Title' maxwidgets='1' name='Header Title Widget' showaddelement='no'>
           <b:widget id='HTML30' locked='false' title='' type='HTML' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<p>Connecting People Piece by Piece since 2019</p>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<p>Dark Modern Industrial Metal with Female Vocals</p>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <b:if cond='data:title != &quot;&quot;'><h2 class='title'><data:title/></h2></b:if>
@@ -1162,7 +1193,7 @@ h4#comment-post-message { display: none; margin: 0; }
 $(function() {
   "use strict";
   $(".header-logo-desc p").typed({
-    strings: ["Melodic", "Engaged", "Creative", "Unstoppable"],
+    strings: ["Industrial", "Dark", "Theatrical", "Unstoppable"],
     loop: true,
     startDelay: 1000,
     backDelay: 2000
@@ -2252,6 +2283,8 @@ jQuery.ias();
 /*]]>*/
 </script>
 </b:if></b:if></b:if>
+
+</div>
 
 <!-- Preloader fadeout -->
 <script>
